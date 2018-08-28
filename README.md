@@ -10,29 +10,12 @@ sudo !!
 
 <img src="./images/sudo_!!.gif" width="500"/>
 
-#### 切换工作目录
-```bash
-# 切换回上一个工作目录
-cd -
-
-# 把上个命令的参数作为 cd 参数使用
-cd !$
-```
-#### 执行多个命令
-```bash
-# 顺序执行多个命令
-command_1; command_2
-
-# 如果 command_1 执行成功，则执行 command_2
-command_1 && command_2
-
-# 如果 command_1 执行失败，则执行 command_2
-command_1 || command_2
-```
 #### 查找并终止进程
 ```bash
-kill $(ps aux | grep 'process_name' | awk '{print $2}')
+kill $(ps aux | grep '[p]rocess_name' | awk '{print $2}')
 ```
+
+小技巧：被搜索字符串的首个字符被过滤器`[]`包裹，可忽略`grep`进程本身。
 
 #### 统计并显示历史记录中最常用的命令
 ```bash

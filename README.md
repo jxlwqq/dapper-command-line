@@ -7,6 +7,7 @@
 sudo !!
 ```
 示例：
+
 ![sudo !!](./images/sudo_!!.gif)
 
 #### 切换工作目录

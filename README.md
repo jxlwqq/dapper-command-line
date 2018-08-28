@@ -8,7 +8,7 @@ sudo !!
 ```
 示例：
 
-![](./images/sudo_!!.gif)
+<img src="./images/sudo_!!.gif" width="500"/>
 
 #### 切换工作目录
 ```bash

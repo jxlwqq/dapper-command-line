@@ -6,6 +6,8 @@
 ```bash
 sudo !!
 ```
+示例：
+![sudo !!](./images/sudo_!!.gif)
 
 #### 切换工作目录
 ```bash
@@ -29,6 +31,11 @@ command_1 || command_2
 #### 查找并终止进程
 ```bash
 kill $(ps aux | grep 'process_name' | awk '{print $2}')
+```
+
+#### 统计并显示历史记录中最常用的命令
+```bash
+history | awk 'BEGIN {FS="[ \t]+|\\|"} {print $3}' | sort | uniq -c | sort -nr | head
 ```
 
 ## 快捷键相关

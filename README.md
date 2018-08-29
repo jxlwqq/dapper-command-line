@@ -50,7 +50,10 @@ control + E 将光标移动只命令行结尾位置；
 
 <img src="./images/control+a&control+e.gif" width="500"/>
 
+## 鸣谢
 
+* 录屏工具：[Kap](https://github.com/wulkano/kap)
+* 快捷键可视化工具：[KeyCastr](https://github.com/keycastr/keycastr)
 
 ## TODO
 - [ ] 为每一个技巧配上 gif 图

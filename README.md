@@ -1,7 +1,7 @@
 # 短小精悍的命令行合集
 
 
-![Banner](./images/banner.png)
+<img src="./images/banner.png" width="500"/>
 
 ## 命令行相关
 

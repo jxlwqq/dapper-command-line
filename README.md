@@ -25,12 +25,20 @@ history | awk 'BEGIN {FS="[ \t]+|\\|"} {print $3}' | sort | uniq -c | sort -nr |
 ## 快捷键相关
 
 > 默认以 Mac 键盘示例，Windows 用户请将 `control` 键改为 `Ctrl` 键。
+> GIF 示例图右下角会显示当前使用的快捷键组合。
 
 #### 搜索并执行过去使用过的命令
 control + R 进入`反向搜索`模式。
 ```bash
 (reverse-i-search)`':
 ```
+
+示例：
+
+
+<img src="./images/control+r.gif" width="500"/>
+
+
 
 #### 移动光标
 

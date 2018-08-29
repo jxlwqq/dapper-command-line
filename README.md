@@ -45,6 +45,13 @@ control + R 进入`反向搜索`模式。
 control + A 将光标移动至命令行开头位置；
 control + E 将光标移动只命令行结尾位置；
 
+示例：
+
+
+<img src="./images/control+a&control+e.gif" width="500"/>
+
+
+
 ## TODO
 - [ ] 为每一个技巧配上 gif 图
 
